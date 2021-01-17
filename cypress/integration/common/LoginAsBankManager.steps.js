@@ -1,4 +1,3 @@
-import Navigate from '../pageObjects/navigate';
 import HomePage from '../pageObjects/HomePage';
 import { BANK_MANAGER, CUSTOMER } from '../pageObjects/Constants';
 import { Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
@@ -13,4 +12,5 @@ And(/^logs in as "(.*)"$/, function (loginAs) {
 
 Then('validate page title', () => {
 	cy.title().should('eq', 'Protractor practice website - Banking App');
+	cy.screenshot();
 });
