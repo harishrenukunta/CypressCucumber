@@ -22,7 +22,7 @@
             "name": "the user navigates to website",
             "result": {
               "status": "passed",
-              "duration": 1200000000
+              "duration": 485000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "logs in as \"Bank Manager\"",
             "result": {
               "status": "passed",
-              "duration": 570000000
+              "duration": 114000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "validate page title",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 9000000
             }
           }
         ]
@@ -62,7 +62,7 @@
             "name": "the user navigates to website",
             "result": {
               "status": "passed",
-              "duration": 354000000
+              "duration": 221000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "logs in as \"Customer\"",
             "result": {
               "status": "passed",
-              "duration": 120000000
+              "duration": 128000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "validate page title",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 7000000
             }
           }
         ]
