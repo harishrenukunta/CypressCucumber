@@ -5,6 +5,7 @@ Given the user navigates to website
 And logs in as "Bank Manager"
 Then validate page title
 
+#Customer login
 Scenario: Customer login
 Given the user navigates to website
 And logs in as "Customer"
